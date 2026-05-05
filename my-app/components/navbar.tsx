@@ -7,23 +7,19 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const navClass = (path: string) =>
-    `nav-item ${pathname === path ? "nav-active" : ""}`;
+    `nav-item ${pathname === path ? "active" : ""}`;
 
   return (
     <nav className="navbar">
-      <div className="navbar-container">
+      <h1 className="logo">Wira Garden</h1>
 
-        <h2 className="logo">Wira Garden</h2>
-
-        <div className="nav-menu">
-          <Link href="/" className={navClass("/")}>Home</Link>
-          <Link href="/about" className={navClass("/about")}>Deskripsi</Link>
-          <Link href="/tiket" className={navClass("/tiket")}>Tiket</Link>
-          <Link href="/galeri" className={navClass("/galeri")}>Galeri</Link>
-          <Link href="/lokasi" className={navClass("/lokasi")}>Lokasi</Link>
-        </div>
-
+      <div className="nav-menu">
+        <Link href="/" className={navClass("/")}>Home</Link>
+        <Link href="/Deskripsi" className={navClass("/Deskripsi")}>Deskripsi</Link>
+        <Link href="/lokasi" className={navClass("/lokasi")}>Lokasi</Link>
+        <Link href="/tiket" className={navClass("/tiket")}>Tiket</Link>
+        <Link href="/galeri" className={navClass("/galeri")}>Galeri</Link>
       </div>
     </nav>
-  );
+  )
 }
