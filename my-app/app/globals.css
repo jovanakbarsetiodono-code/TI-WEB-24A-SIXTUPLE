@@ -230,4 +230,49 @@
   margin-top: 25px;
 }
 
+/* ===== HALAMAN LOKASI (CENTER FIX) ===== */
 
+.lokasi-page {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* biar tengah juga secara vertikal */
+  min-height: 100vh;
+}
+
+.lokasi-container {
+  max-width: 800px; /* samain sama .main */
+  width: 100%;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.lokasi-info {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.lokasi-map {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.lokasi-wrapper {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  background: transparent; 
+}
+.lokasi-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 8px 20px;
+  margin-top: 10px;
+}
+
+.lokasi-info-grid p {
+  margin: 0;
+}
