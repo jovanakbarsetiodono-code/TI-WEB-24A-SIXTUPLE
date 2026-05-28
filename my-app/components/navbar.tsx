@@ -17,7 +17,7 @@ export default function Navbar() {
         <Link href="/" className={navClass("/")}>Home</Link>
         <Link href="/deskripsi" className={navClass("/deskripsi")}>Deskripsi</Link>
         <Link href="/lokasi" className={navClass("/lokasi")}>Lokasi</Link>
-        <Link href="/tiket" className={navClass("/tiket")}>Tiket</Link>
+        <Link href="/ticket" className={navClass("/ticket")}>Ticket</Link>
         <Link href="/galeri" className={navClass("/galeri")}>Galeri</Link>
       </div>
     </nav>
