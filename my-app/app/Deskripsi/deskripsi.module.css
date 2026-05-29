@@ -1,0 +1,63 @@
+/* Halaman Deskripsi */
+.deskripsi-page {
+  display: flex;
+  justify-content: center;
+}
+
+.deskripsi-main {
+  margin-top: 27px;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.deskripsi-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #15803d;
+  margin-bottom: 20px;
+}
+
+.deskripsi-image {
+  border-radius: 10px;
+}
+
+.deskripsi-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.deskripsi-image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.deskripsi-description {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.deskripsi-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px; 
+  text-align: left;
+  padding-left: 15px;
+}
+
+.deskripsi-list {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.deskripsi-text {
+  font-size: 16px;
+  color: #52525b;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,32 +1,53 @@
 import Image from "next/image";
+import styles from "./deskripsi.module.css";
 
 export default function Page() {
   return (
-    <div className="page">
-      <main className="main">
-        <h1 className="title">Deskripsi Wira Garden</h1>
+    <div className={styles["deskripsi-page"]}>
+      <main className={styles["deskripsi-main"]}>
+        <h1 className={styles["deskripsi-title"]}>
+          Deskripsi Wira Garden
+        </h1>
 
-        <Image
-          src="/wira2.jpg"
-          alt="Wira Garden"
-          width={500}
-          height={300}
-          className="image"
-        />
+        <p className={styles["deskripsi-text"]}>
+          Wira Garden merupakan tempat wisata alam di Bandar Lampung yang
+          menawarkan suasana sejuk, pemandangan sungai, serta area bersantai
+          yang nyaman untuk pengunjung.
+        </p>
 
-        <p className="description">
+        <div className={styles["deskripsi-image-row"]}>
+          <Image
+            src="/wira4.jpg"
+            alt="Wira Garden"
+            width={400}
+            height={250}
+            className={styles["deskripsi-image"]}
+          />
+
+          <Image
+            src="/wira5.jpg"
+            alt="Wira Garden"
+            width={400}
+            height={250}
+            className={styles["deskripsi-image"]}
+          />
+        </div>
+
+        <p className={styles["deskripsi-description"]}>
           Wira Garden merupakan destinasi wisata alam yang terletak di Bandar
           Lampung. Tempat ini dikenal dengan suasana yang sejuk, pepohonan
           hijau, serta aliran sungai yang jernih sehingga cocok untuk melepas
           penat dari aktivitas sehari-hari.
         </p>
 
-        <h2 className="subtitle">Keunggulan</h2>
+        <h2 className={styles["deskripsi-subtitle"]}>
+          Keunggulan
+        </h2>
 
-        <ul className="list">
-          <li>Lingkungan masih alami dan sejuk</li>
-          <li>Cocok untuk rekreasi keluarga</li>
-          <li>Banyak spot foto menarik</li>
+        <ul className={styles["deskripsi-list"]}>
+          <li>Memiliki lingkungan yang masih alami dan sejuk.</li>
+          <li>Cocok dijadikan tempat rekreasi bersama keluarga.</li>
+          <li>Menyediakan banyak spot foto yang menarik.</li>
         </ul>
       </main>
     </div>
