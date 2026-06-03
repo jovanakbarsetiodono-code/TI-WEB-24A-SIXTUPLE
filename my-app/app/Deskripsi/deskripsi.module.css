@@ -61,3 +61,47 @@
   text-align: center;
   font-weight: bold;
 }
+
+/*RESPONSIVE MOBILE*/
+@media (max-width: 768px) {
+  .deskripsi-main {
+    padding: 15px;
+  }
+
+  .deskripsi-title {
+    font-size: 24px;
+  }
+
+  .deskripsi-text {
+    font-size: 14px;
+  }
+
+  .deskripsi-image-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .deskripsi-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .deskripsi-description {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  .deskripsi-subtitle {
+    font-size: 18px;
+    padding-left: 0;
+  }
+
+  .deskripsi-list {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
