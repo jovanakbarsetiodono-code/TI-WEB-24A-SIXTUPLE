@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="home-page">
       <main className="home-main">
-       <HeroSection />
+        <HeroSection />
 
         <div className="home-image-row">
           <Image
@@ -36,6 +36,10 @@ export default function Home() {
         <div className="home-button-wrapper">
           <a href="/lokasi" className="home-button">
             Lihat Selengkapnya
+          </a>
+
+          <a href="/ticket" className="home-button">
+            Pesan Tiket
           </a>
         </div>
 
