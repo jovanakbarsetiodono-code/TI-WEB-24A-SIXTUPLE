@@ -120,6 +120,10 @@ body {
   cursor: pointer;
 }
 
+.hero-section {
+  margin-bottom: 30px;
+}
+
 /*RESPONSIVE MOBILE*/
 @media (max-width: 768px) {
   .home-main {
