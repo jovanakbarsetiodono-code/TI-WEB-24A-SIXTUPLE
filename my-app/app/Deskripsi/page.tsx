@@ -48,6 +48,8 @@ export default function Page() {
           <li>Memiliki lingkungan yang masih alami dan sejuk.</li>
           <li>Cocok dijadikan tempat rekreasi bersama keluarga.</li>
           <li>Menyediakan banyak spot foto yang menarik.</li>
+          <li>Menyediakan fasilitas yang memadai untuk pengunjung.</li>
+          <li>Memiliki harga yang terjangkau.</li>
         </ul>
       </main>
     </div>
