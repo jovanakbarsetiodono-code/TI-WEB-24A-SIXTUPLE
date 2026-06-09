@@ -21,10 +21,13 @@ export default function Lokasi() {
             <h2 className={styles["subtitle"]}>Informasi Lokasi</h2>
 
             <div className={styles["lokasi-info-grid"]}>
-              <p>📍 Batu Putu, Bandar Lampung</p>
+              
+              <p>💰 Harga Tiket Camping 35.000</p>
+
               <p>🕒 08.00 - 17.00 WIB</p>
-              <p>💰 Rp10.000 - Rp20.000</p>
-              <p>🚗 Motor & Mobil</p>
+              <p>💰 Harga Tiket Dewasa 20.000</p>
+              <p>📍 Batu Putu, Bandar Lampung</p>
+              <p>💰 Harga Tiket Anak-anak 10.000</p>
             </div>
             <h2 className={styles["subtitle"]}>Deskripsi</h2>
 
