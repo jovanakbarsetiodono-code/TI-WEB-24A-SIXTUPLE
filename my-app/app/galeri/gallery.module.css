@@ -1,0 +1,120 @@
+.galleryPage {
+  min-height: 100vh;
+  background: white;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(to right, black, #14532d, black);
+  color: white;
+}
+
+.navbarContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+.active {
+  background: #166534;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin: 60px 0;
+}
+
+/* 🔥 TITLE SUDAH BOLD */
+.header h1 {
+  font-size: 48px;
+  color: #14532d;
+  margin-bottom: 15px;
+  font-weight: 800; /* ini bikin tebal */
+}
+
+.header p {
+  color: #666;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+/* GALLERY GRID */
+.gallery {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.galleryImage {
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header h1 {
+    font-size: 36px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .navbarContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+}
