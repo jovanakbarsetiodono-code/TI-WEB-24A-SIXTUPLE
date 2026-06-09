@@ -1,13 +1,11 @@
 import Image from "next/image";
+import HeroSection from "../components/herosection";
 
 export default function Home() {
   return (
     <div className="home-page">
       <main className="home-main">
-        <h1 className="home-title">Wira Garden Lampung</h1>
-          <h4 className="home-subtitle">
-          Nikmati keindahan alam dan suasana sejuk di Wira Garden Lampung
-        </h4>
+       <HeroSection />
 
         <div className="home-image-row">
           <Image
