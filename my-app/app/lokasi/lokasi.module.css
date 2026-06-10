@@ -49,8 +49,22 @@
 .lokasi-title {
   font-size: 29px;
   font-weight: bold;
-  color: #15803d;
-  margin-bottom: 20px;
+  color: #166534;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.lokasi-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 3px;
+  background: #166534;
+  border-radius: 10px;
 }
 
 .lokasi-description {
@@ -81,4 +95,6 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+
 
