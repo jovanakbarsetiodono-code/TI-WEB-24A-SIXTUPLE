@@ -50,6 +50,16 @@
   margin-bottom: 20px;
 }
 
+.header h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #166534;
+  margin: 15px auto 0;
+  border-radius: 10px;
+}
+
 .header p {
   color: #666;
   font-size: 20px;
