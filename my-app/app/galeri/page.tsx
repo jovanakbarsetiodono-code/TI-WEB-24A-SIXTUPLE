@@ -15,28 +15,31 @@ export default function GalleryPage() {
   ];
 
   return (
-  <div className={styles.galleryPage}>
-    <section className={styles.header}>
-      <h1>Galeri Wira Garden</h1>
-      <p>
-        Jelajahi keindahan Wira Garden melalui kumpulan foto alam yang asri,
-        suasana hijau yang menenangkan, serta berbagai spot menarik untuk
-        berfoto dan menikmati waktu bersama keluarga maupun teman.
-      </p>
-    </section>
+    <div className={styles.galleryPage}>
+      <div className={styles.wrapper}>
+        <section className={styles.header}>
+          <h1>Galeri Wira Garden</h1>
+          <p>
+            Nikmati keindahan Wira Garden melalui kumpulan foto yang menampilkan
+            suasana alam yang asri, pepohonan hijau yang menenangkan, serta
+            berbagai spot menarik untuk mengabadikan momen bersama keluarga dan
+            teman.
+          </p>
+        </section>
 
-      <section className={styles.gallery}>
-        {images.map((img, index) => (
-          <div className={styles.card} key={index}>
-            <Image
-              src={img}
-              alt={`Gallery ${index + 1}`}
-              fill
-              className={styles.galleryImage}
-            />
-          </div>
-        ))}
-      </section>
+        <section className={styles.gallery}>
+          {images.map((img, index) => (
+            <div className={styles.card} key={index}>
+              <Image
+                src={img}
+                alt={`Gallery ${index + 1}`}
+                fill
+                className={styles.galleryImage}
+              />
+            </div>
+          ))}
+        </section>
+      </div>
     </div>
   );
 }
