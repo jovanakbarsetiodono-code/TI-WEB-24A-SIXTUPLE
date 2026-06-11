@@ -73,7 +73,6 @@ export default function AdminPage() {
 
         <ul>
           <li>Dashboard</li>
-          <li>Pemesanan</li>
           <li>Laporan</li>
         </ul>
 
