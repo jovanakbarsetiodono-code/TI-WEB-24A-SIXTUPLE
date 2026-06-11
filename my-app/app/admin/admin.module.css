@@ -232,18 +232,24 @@
 
 .logoutButton {
   width: 100%;
-  margin-top: 30px;
-  padding: 12px;
+  padding: 14px;
   border: none;
-  border-radius: 8px;
-  background: #dc2626;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #8992a1, #8992a1);
   color: white;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(217, 54, 62, 0.3);
 }
 
 .logoutButton:hover {
-  background: #b91c1c;
+  background: black;
+}
+
+.logoutButton:active {
+  transform: scale(0.98);
 }
 
 @media (max-width: 768px) {
