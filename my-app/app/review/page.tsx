@@ -31,9 +31,22 @@ export default function ReviewPage() {
           </p>
         </div>
         <div className={styles.reviewCard}>
-          <h3>Siti Rahma</h3>
-          <p>★★★★★</p>
-          <p>Pemandangannya indah.</p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto2.jpg"
+              alt="Siti Rahma"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Siti Rahma</h3>
+              <div className={styles.star}>★★★★★</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
+            Pemandangannya indah dan udaranya sangat sejuk.
+          </p>
         </div>
         <div className={styles.reviewCard}>
           <h3>Budi Santoso</h3>
