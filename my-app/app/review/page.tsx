@@ -47,6 +47,7 @@ export default function ReviewPage() {
           <p className={styles.reviewText}>
             Pemandangannya indah dan udaranya sangat sejuk.
           </p>
+          <div className={styles.reviewDate}>📅 5 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
