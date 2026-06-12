@@ -13,9 +13,22 @@ export default function ReviewPage() {
       </section>
       <section className={styles.reviewContainer}>
         <div className={styles.reviewCard}>
-          <h3>Andi Saputra</h3>
-          <p>★★★★★</p>
-          <p>Tempatnya sangat nyaman.</p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto1.jpg"
+              alt="Andi Saputra"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Andi Saputra</h3>
+              <div className={styles.star}>★★★★★</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
+            Tempatnya sangat nyaman dan cocok untuk healing bersama keluarga.
+          </p>
         </div>
         <div className={styles.reviewCard}>
           <h3>Siti Rahma</h3>
