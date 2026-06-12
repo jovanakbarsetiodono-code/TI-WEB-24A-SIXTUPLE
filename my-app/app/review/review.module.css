@@ -78,3 +78,7 @@
   line-height: 1.8;
   font-size: 18px;
 }
+.profileImage:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
