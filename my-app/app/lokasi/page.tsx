@@ -47,6 +47,7 @@ export default function Lokasi() {
               <li>- Spot foto</li>
               <li>- Toilet umum</li>
                <li>- Area Camping</li>
+               <li>- Warung makan atau kantin</li>
             </ul>
 
             <p>Rekomendasi: Pagi atau sore hari</p>
