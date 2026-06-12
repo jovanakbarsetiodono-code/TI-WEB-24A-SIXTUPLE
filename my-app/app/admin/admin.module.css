@@ -4,7 +4,7 @@
 }
 
 .sidebar {
-  width: 250px;
+  width: 200px;
   background: linear-gradient(180deg, #15803d, #166534);
   color: white;
   padding: 25px;
@@ -41,14 +41,6 @@
 
 .container {
   flex: 1;
-  width: 100%;
-  padding: 20px 30px;
-  background: #f8fafc;
-}
-
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
   padding: 20px;
   min-height: 100vh;
   background: #f8fafc;

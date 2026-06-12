@@ -1,66 +1,130 @@
+.adminLayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: linear-gradient(180deg, #15803d, #166534);
+  color: white;
+  padding: 25px;
+  font-size: 16px;
+  box-shadow: 4px 0 15px rgba(0,0,0,0.15);
+}
+
+.sidebar h2 {
+  margin-bottom: 35px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.sidebar li:hover {
+  background: rgba(255,255,255,0.18);
+  transform: translateX(5px);
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
 .container {
-min-height: 100vh;
-padding: 30px;
-background: #f8fafc;
+  flex: 1;
+  width: 100%;
+  padding: 20px 30px;
+  background: #f8fafc;
 }
 
 .title {
-font-size: 30px;
-font-weight: bold;
-color: #0f172a;
-margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f172a;
+  margin-bottom: 10px;
 }
 
 .description {
-color: #64748b;
-margin-bottom: 25px;
+  color: #64748b;
+  margin-bottom: 25px;
 }
 
 .reportCard {
-background: white;
-padding: 25px;
-border-radius: 16px;
-box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-margin-bottom: 25px;
-}
-
-.reportCard h2 {
-margin-bottom: 20px;
-color: #15803d;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
 }
 
 .item {
-display: flex;
-justify-content: space-between;
-padding: 15px 0;
-border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .item:last-child {
-border-bottom: none;
+  border-bottom: none;
 }
 
 .item span {
-color: #64748b;
+  color: #64748b;
 }
 
 .item strong {
-color: #0f172a;
+  color: #0f172a;
 }
 
 .summary {
-background: white;
-padding: 25px;
-border-radius: 16px;
-box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .summary h2 {
-margin-bottom: 15px;
-color: #15803d;
+  margin-bottom: 15px;
+  color: #15803d;
 }
 
 .summary p {
-line-height: 1.8;
-color: #334155;
+  line-height: 1.8;
+  color: #334155;
+}
+
+.logoutButton {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #8992a1;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background: black;
+}
+
+.activeMenu {
+  background: rgba(255,255,255,0.18);
 }
