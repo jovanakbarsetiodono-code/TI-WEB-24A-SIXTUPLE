@@ -23,7 +23,6 @@ export default function Lokasi() {
             <div className={styles["lokasi-info-grid"]}>
               
               <p>💰 Harga Tiket Camping 35.000</p>
-
               <p>🕒 08.00 - 17.00 WIB</p>
               <p>💰 Harga Tiket Dewasa 20.000</p>
               <p>📍 Batu Putu, Bandar Lampung</p>
@@ -47,6 +46,7 @@ export default function Lokasi() {
               <li>- Tempat istirahat</li>
               <li>- Spot foto</li>
               <li>- Toilet umum</li>
+               <li>- Area Camping</li>
             </ul>
 
             <p>Rekomendasi: Pagi atau sore hari</p>
