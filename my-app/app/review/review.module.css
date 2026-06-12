@@ -1,0 +1,27 @@
+.reviewHeader {
+  text-align: center;
+  padding: 80px 20px 50px;
+}
+
+.reviewHeader h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 120px;
+  height: 5px;
+  background-color: #1b5e20;
+  margin: 0 auto 25px;
+  border-radius: 10px;
+}
+
+.reviewHeader p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+}
