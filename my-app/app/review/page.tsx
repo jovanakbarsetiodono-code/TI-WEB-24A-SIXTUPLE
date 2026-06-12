@@ -29,6 +29,7 @@ export default function ReviewPage() {
           <p className={styles.reviewText}>
             Tempatnya sangat nyaman dan cocok untuk healing bersama keluarga.
           </p>
+          <div className={styles.reviewDate}>📅 3 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
