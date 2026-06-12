@@ -51,6 +51,7 @@ export default function Page() {
           </li>
           <li>Keindahan alam yang masih terjaga dan tidak terlalu ramai.</li>
           <li>Cocok untuk kegiatan outdoor seperti gathering.</li>
+          <li>Tempat yang aman untuk anak-anak bermain di area tertentu.</li> 
         </ul>
       </main>
     </div>
