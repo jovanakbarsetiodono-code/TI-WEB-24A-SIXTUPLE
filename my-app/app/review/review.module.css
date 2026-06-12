@@ -7,7 +7,7 @@
   font-size: 28px;
   font-weight: 700;
   color: #1b5e20;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .line {
@@ -24,4 +24,19 @@
   font-size: 18px;
   line-height: 1.8;
   color: #666;
+}
+.reviewContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.reviewCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
