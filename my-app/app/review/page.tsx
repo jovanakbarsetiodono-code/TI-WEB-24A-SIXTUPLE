@@ -35,6 +35,13 @@ export default function ReviewPage() {
             keluarga.
           </p>
         </div>
+        <div className={styles.reviewCard}>
+          <h3>Rizky Pratama</h3>
+          <p>★★★★☆</p>
+          <p>
+            Fasilitasnya lengkap dan pemandangan alamnya sangat memanjakan mata.
+          </p>
+        </div>
       </section>
     </main>
   );
