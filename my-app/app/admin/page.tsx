@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import styles from "./admin.module.css";
+import Link from "next/link";
 
 type Pemesanan = {
   id: number;
@@ -72,8 +73,13 @@ export default function AdminPage() {
         <h2>Wira Garden</h2>
 
         <ul>
-          <li>Dashboard</li>
-          <li>Laporan</li>
+          <li>
+            <Link href="/admin">Dashboard</Link>
+          </li>
+
+          <li>
+            <Link href="/laporan">Laporan</Link>
+          </li>
         </ul>
 
         <button className={styles.logoutButton} onClick={handleLogout}>
