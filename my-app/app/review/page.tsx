@@ -17,6 +17,12 @@ export default function ReviewPage() {
           <p>★★★★★</p>
           <p>Tempatnya sangat nyaman.</p>
         </div>
+        <div className={styles.reviewCard}>
+          <h3>Siti Rahma</h3>
+          <p>★★★★★</p>
+          <p>Pemandangannya indah.</p>
+        </div>
+
          </section>
     </main>
   );
