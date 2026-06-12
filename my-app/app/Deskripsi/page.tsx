@@ -46,7 +46,7 @@ export default function Page() {
           <li>Menyediakan banyak spot foto yang menarik.</li>
           <li>Menyediakan fasilitas yang memadai untuk pengunjung.</li>
           <li>Memiliki harga yang terjangkau.</li>
-          <li>Lingkungan yang asri dan nyaman.</li>
+          
         </ul>
       </main>
     </div>
