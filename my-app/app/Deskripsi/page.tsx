@@ -37,13 +37,7 @@ export default function Page() {
           hijau, serta aliran sungai yang jernih sehingga cocok untuk melepas
           penat dari aktivitas sehari-hari.
         </p>
-        <p className={styles["deskripsi-description"]}>
-          Wira Garden menawarkan keindahan alam yang masih terjaga dengan aliran
-          sungai yang jernih, pepohonan yang rindang, dan udara yang segar.
-          Tempat ini menjadi pilihan ideal bagi wisatawan yang ingin menikmati
-          wisata alam di Bandar Lampung.
-        </p>
-
+        
         <h2 className={styles["deskripsi-subtitle"]}>Keunggulan</h2>
 
         <ul className={styles["deskripsi-list"]}>
