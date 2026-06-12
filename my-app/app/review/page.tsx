@@ -42,6 +42,14 @@ export default function ReviewPage() {
             Fasilitasnya lengkap dan pemandangan alamnya sangat memanjakan mata.
           </p>
         </div>
+        <div className={styles.reviewCard}>
+          <h3>Nabila Putri</h3>
+          <p>★★★★★</p>
+          <p>
+            Suasana yang tenang dan udara yang sejuk membuat pengalaman
+            berwisata semakin menyenangkan.
+          </p>
+        </div>
       </section>
     </main>
   );
