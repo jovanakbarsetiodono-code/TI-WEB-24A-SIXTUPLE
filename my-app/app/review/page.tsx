@@ -121,6 +121,7 @@ export default function ReviewPage() {
             Suasana yang tenang dan udara yang sejuk membuat pengalaman
             berwisata semakin menyenangkan.
           </p>
+          <div className={styles.reviewDate}>📅 15 Mei 2024</div>
         </div>
       </section>
     </main>
