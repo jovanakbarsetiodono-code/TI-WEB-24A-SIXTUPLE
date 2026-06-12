@@ -11,7 +11,7 @@ export default function ReviewPage() {
           keindahan alam serta suasana nyaman di Wira Garden.
         </p>
       </section>
-       <section className={styles.reviewContainer}>
+      <section className={styles.reviewContainer}>
         <div className={styles.reviewCard}>
           <h3>Andi Saputra</h3>
           <p>★★★★★</p>
@@ -27,7 +27,15 @@ export default function ReviewPage() {
           <p>★★★★☆</p>
           <p>Cocok untuk healing.</p>
         </div>
-         </section>
+        <div className={styles.reviewCard}>
+          <h3>Dewi Lestari</h3>
+          <p>★★★★★</p>
+          <p>
+            Tempatnya bersih, asri, dan sangat cocok untuk liburan bersama
+            keluarga.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
