@@ -92,6 +92,7 @@
   object-fit: cover;
 }
 
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .gallery {
