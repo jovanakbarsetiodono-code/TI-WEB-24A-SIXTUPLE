@@ -67,9 +67,20 @@ export default function ReviewPage() {
           </p>
         </div>
         <div className={styles.reviewCard}>
-          <h3>Dewi Lestari</h3>
-          <p>★★★★★</p>
-          <p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto4.jpg"
+              alt="Dewi Lestari"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Dewi Lestari</h3>
+              <div className={styles.star}>★★★★★</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
             Tempatnya bersih, asri, dan sangat cocok untuk liburan bersama
             keluarga.
           </p>
