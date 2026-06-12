@@ -34,6 +34,9 @@ export default function Navbar() {
         <Link href="/galeri" className={navClass("/galeri")}>
           Galeri
         </Link>
+        <Link href="/review" className={navClass("/review")}>
+          Review
+        </Link>
       </div>
     </nav>
   );
