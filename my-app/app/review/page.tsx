@@ -84,6 +84,7 @@ export default function ReviewPage() {
             Tempatnya bersih, asri, dan sangat cocok untuk liburan bersama
             keluarga.
           </p>
+          <div className={styles.reviewDate}>📅 10 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
