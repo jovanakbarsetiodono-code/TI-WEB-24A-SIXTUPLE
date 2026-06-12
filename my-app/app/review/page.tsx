@@ -14,11 +14,6 @@ export default function ReviewPage() {
       <section className={styles.reviewContainer}>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            <img
-              src="/foto1.jpg"
-              alt="Andi Saputra"
-              className={styles.profileImage}
-            />
 
             <div>
               <h3>Andi Saputra</h3>
@@ -33,11 +28,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            <img
-              src="/foto2.jpg"
-              alt="Siti Rahma"
-              className={styles.profileImage}
-            />
 
             <div>
               <h3>Siti Rahma</h3>
@@ -51,12 +41,7 @@ export default function ReviewPage() {
           <div className={styles.reviewDate}>📅 5 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
-          <div className={styles.reviewTop}>
-            <img
-              src="/foto3.jpg"
-              alt="Budi Santoso"
-              className={styles.profileImage}
-            />
+          <div className={styles.reviewTop}>    
 
             <div>
               <h3>Budi Santoso</h3>
@@ -71,11 +56,7 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            <img
-              src="/foto4.jpg"
-              alt="Dewi Lestari"
-              className={styles.profileImage}
-            />
+            
 
             <div>
               <h3>Dewi Lestari</h3>
@@ -91,11 +72,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            <img
-              src="/foto5.jpg"
-              alt="Rizky Pratama"
-              className={styles.profileImage}
-            />
 
             <div>
               <h3>Rizky Pratama</h3>
@@ -110,11 +86,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            <img
-              src="/foto6.jpg"
-              alt="Nabila Putri"
-              className={styles.profileImage}
-            />
 
             <div>
               <h3>Nabila Putri</h3>

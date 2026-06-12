@@ -54,12 +54,6 @@
   margin-bottom: 15px;
 }
 
-.profileImage {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
-}
 
 .reviewTop h3 {
   margin: 0;
@@ -78,10 +72,7 @@
   line-height: 1.8;
   font-size: 18px;
 }
-.profileImage:hover {
-  transform: scale(1.05);
-  transition: 0.3s ease;
-}
+
 .reviewDate {
   margin-top: 12px;
   font-size: 13px;
