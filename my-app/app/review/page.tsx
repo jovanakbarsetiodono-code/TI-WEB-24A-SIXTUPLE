@@ -102,6 +102,7 @@ export default function ReviewPage() {
           <p className={styles.reviewText}>
             Fasilitasnya lengkap dan pemandangan alamnya sangat memanjakan mata.
           </p>
+          <div className={styles.reviewDate}>📅 12 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
