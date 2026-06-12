@@ -5,7 +5,7 @@ export default function ReviewPage() {
         <section className={styles.reviewHeader}>
   <h1>Review Wira Garden</h1>
 
-  <div className="line"></div>
+  <div className={styles.line}></div>
         <p>
           Lihat pengalaman dan kesan para pengunjung yang telah menikmati
           keindahan Wira Garden.
