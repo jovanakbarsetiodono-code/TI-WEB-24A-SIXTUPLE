@@ -104,9 +104,20 @@ export default function ReviewPage() {
           </p>
         </div>
         <div className={styles.reviewCard}>
-          <h3>Nabila Putri</h3>
-          <p>★★★★★</p>
-          <p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto6.jpg"
+              alt="Nabila Putri"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Nabila Putri</h3>
+              <div className={styles.star}>★★★★☆</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
             Suasana yang tenang dan udara yang sejuk membuat pengalaman
             berwisata semakin menyenangkan.
           </p>
