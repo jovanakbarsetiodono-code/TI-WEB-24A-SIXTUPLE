@@ -49,9 +49,22 @@ export default function ReviewPage() {
           </p>
         </div>
         <div className={styles.reviewCard}>
-          <h3>Budi Santoso</h3>
-          <p>★★★★☆</p>
-          <p>Cocok untuk healing.</p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto3.jpg"
+              alt="Budi Santoso"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Budi Santoso</h3>
+              <div className={styles.star}>★★★★☆</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
+            Cocok untuk healing bersama keluarga maupun teman.
+          </p>
         </div>
         <div className={styles.reviewCard}>
           <h3>Dewi Lestari</h3>
