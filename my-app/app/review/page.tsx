@@ -11,6 +11,13 @@ export default function ReviewPage() {
           keindahan alam serta suasana nyaman di Wira Garden.
         </p>
       </section>
+       <section className={styles.reviewContainer}>
+        <div className={styles.reviewCard}>
+          <h3>Andi Saputra</h3>
+          <p>★★★★★</p>
+          <p>Tempatnya sangat nyaman.</p>
+        </div>
+         </section>
     </main>
   );
 }
