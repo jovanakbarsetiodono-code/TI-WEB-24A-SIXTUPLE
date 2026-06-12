@@ -86,9 +86,20 @@ export default function ReviewPage() {
           </p>
         </div>
         <div className={styles.reviewCard}>
-          <h3>Rizky Pratama</h3>
-          <p>★★★★☆</p>
-          <p>
+          <div className={styles.reviewTop}>
+            <img
+              src="/foto5.jpg"
+              alt="Rizky Pratama"
+              className={styles.profileImage}
+            />
+
+            <div>
+              <h3>Rizky Pratama</h3>
+              <div className={styles.star}>★★★★☆</div>
+            </div>
+          </div>
+
+          <p className={styles.reviewText}>
             Fasilitasnya lengkap dan pemandangan alamnya sangat memanjakan mata.
           </p>
         </div>
