@@ -46,7 +46,6 @@ export default function Page() {
           <li>Menyediakan banyak spot foto yang menarik.</li>
           <li>Menyediakan fasilitas yang memadai untuk pengunjung.</li>
           <li>Memiliki harga yang terjangkau.</li>
-          <li>Keindahan alam yang masih terjaga dan tidak terlalu ramai.</li>
           <li>Tempat yang aman untuk anak-anak bermain di area tertentu.</li> 
         </ul>
       </main>
