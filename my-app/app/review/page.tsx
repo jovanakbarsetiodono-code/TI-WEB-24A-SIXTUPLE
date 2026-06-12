@@ -65,6 +65,7 @@ export default function ReviewPage() {
           <p className={styles.reviewText}>
             Cocok untuk healing bersama keluarga maupun teman.
           </p>
+          <div className={styles.reviewDate}>📅 8 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
