@@ -40,3 +40,41 @@
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+.reviewCard {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+}
+
+.reviewTop {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profileImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewTop h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.star {
+  color: #f4b400;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.reviewText {
+  color: #444;
+  line-height: 1.8;
+  font-size: 18px;
+}
