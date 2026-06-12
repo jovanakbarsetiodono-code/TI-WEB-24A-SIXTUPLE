@@ -22,7 +22,11 @@ export default function ReviewPage() {
           <p>★★★★★</p>
           <p>Pemandangannya indah.</p>
         </div>
-
+        <div className={styles.reviewCard}>
+          <h3>Budi Santoso</h3>
+          <p>★★★★☆</p>
+          <p>Cocok untuk healing.</p>
+        </div>
          </section>
     </main>
   );
