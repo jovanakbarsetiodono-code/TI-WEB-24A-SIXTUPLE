@@ -50,6 +50,7 @@ export default function Page() {
             Menjadi salah satu destinasi wisata favorit di Bandar Lampung.
           </li>
           <li>Keindahan alam yang masih terjaga dan tidak terlalu ramai.</li>
+          <li>Cocok untuk kegiatan outdoor seperti gathering.</li>
         </ul>
       </main>
     </div>
