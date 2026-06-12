@@ -37,7 +37,7 @@ export default function Page() {
           hijau, serta aliran sungai yang jernih sehingga cocok untuk melepas
           penat dari aktivitas sehari-hari.
         </p>
-        
+
         <h2 className={styles["deskripsi-subtitle"]}>Keunggulan</h2>
 
         <ul className={styles["deskripsi-list"]}>
@@ -46,7 +46,10 @@ export default function Page() {
           <li>Menyediakan banyak spot foto yang menarik.</li>
           <li>Menyediakan fasilitas yang memadai untuk pengunjung.</li>
           <li>Memiliki harga yang terjangkau.</li>
-          <li>Menjadi salah satu destinasi wisata favorit di Bandar Lampung.</li>
+          <li>
+            Menjadi salah satu destinasi wisata favorit di Bandar Lampung.
+          </li>
+          <li>Keindahan alam yang masih terjaga dan tidak terlalu ramai.</li>
         </ul>
       </main>
     </div>
