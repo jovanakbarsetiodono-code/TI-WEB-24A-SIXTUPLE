@@ -30,7 +30,7 @@ export default function Home() {
           keindahan taman hijau, aliran sungai, dan suasana yang sejuk serta
           nyaman untuk rekreasi keluarga.Dengan suasana yang masih alami, Wira
           Garden menjadi pilihan tepat untuk melepas penat dari aktivitas
-          sehari-hari.asa
+          sehari-hari.
         </p>
 
         <div className="home-button-wrapper">
