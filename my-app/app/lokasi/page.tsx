@@ -53,11 +53,11 @@ export default function Lokasi() {
               <h2>Rekomendasi Aktivitas</h2>
 
               <ul className={styles.recommendationList}>
-                <li>Berfoto di spot alam yang instagramable</li>
-                <li>Camping bersama keluarga atau teman</li>
-                <li>Piknik di area terbuka</li>
-                <li>Menikmati suasana alam yang sejuk</li>
-                <li>Berjalan santai mengelilingi area wisata</li>
+                <li>📸 Berfoto di spot alam yang instagramable</li>
+                <li>🏕️ Camping bersama keluarga atau teman</li>
+                <li>🧺 Piknik di area terbuka</li>
+                <li>🌿 Menikmati suasana alam yang sejuk</li>
+                <li>🚶 Berjalan santai mengelilingi area wisata</li>
               </ul>
             </section>
           </div>
