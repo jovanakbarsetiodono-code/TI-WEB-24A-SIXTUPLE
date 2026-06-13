@@ -11,10 +11,13 @@ export default function ReviewPage() {
           keindahan alam serta suasana nyaman di Wira Garden.
         </p>
       </section>
+      <section className={styles.reviewSummary}>
+        <h2>⭐ 4.5/5</h2>
+        <p>Berdasarkan 6 ulasan pengunjung</p>
+      </section>
       <section className={styles.reviewContainer}>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-
             <div>
               <h3>Andi Saputra</h3>
               <div className={styles.star}>★★★★★</div>
@@ -28,7 +31,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-
             <div>
               <h3>Siti Rahma</h3>
               <div className={styles.star}>★★★★★</div>
@@ -41,8 +43,7 @@ export default function ReviewPage() {
           <div className={styles.reviewDate}>📅 5 Mei 2024</div>
         </div>
         <div className={styles.reviewCard}>
-          <div className={styles.reviewTop}>    
-
+          <div className={styles.reviewTop}>
             <div>
               <h3>Budi Santoso</h3>
               <div className={styles.star}>★★★★☆</div>
@@ -56,8 +57,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-            
-
             <div>
               <h3>Dewi Lestari</h3>
               <div className={styles.star}>★★★★★</div>
@@ -72,7 +71,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-
             <div>
               <h3>Rizky Pratama</h3>
               <div className={styles.star}>★★★★☆</div>
@@ -86,7 +84,6 @@ export default function ReviewPage() {
         </div>
         <div className={styles.reviewCard}>
           <div className={styles.reviewTop}>
-
             <div>
               <h3>Nabila Putri</h3>
               <div className={styles.star}>★★★★☆</div>
