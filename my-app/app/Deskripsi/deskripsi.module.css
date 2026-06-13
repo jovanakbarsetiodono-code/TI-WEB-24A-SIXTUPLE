@@ -17,6 +17,13 @@
   color: #15803d;
   margin-bottom: 20px;
 }
+.line {
+  width: 120px;
+  height: 5px;
+  background-color: #14532d;
+  margin: 25px;
+  border-radius: 10px;
+}
 
 .deskripsi-image {
   border-radius: 10px;
@@ -104,4 +111,5 @@
     font-size: 14px;
     line-height: 1.6;
   }
+
 }
