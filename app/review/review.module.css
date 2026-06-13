@@ -89,3 +89,19 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+.reviewSummary {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.reviewSummary h2 {
+  font-size: 2.5rem;
+  color: #f59e0b;
+  margin-bottom: 10px;
+}
+
+.reviewSummary p {
+  color: #666;
+  font-size: 1rem;
+}
