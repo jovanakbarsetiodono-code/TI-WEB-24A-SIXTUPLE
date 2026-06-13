@@ -21,7 +21,6 @@ export default function Lokasi() {
             <h2 className={styles["subtitle"]}>Informasi Lokasi</h2>
 
             <div className={styles["lokasi-info-grid"]}>
-              
               <p>💰 Harga Tiket Camping 35.000</p>
               <p>🕒 08.00 - 17.00 WIB</p>
               <p>💰 Harga Tiket Dewasa 20.000</p>
@@ -41,13 +40,13 @@ export default function Lokasi() {
 
             <p>Fasilitas:</p>
 
-            <ul className={styles["list"]}>
-              <li>- Area parkir</li>
-              <li>- Tempat istirahat</li>
-              <li>- Spot foto</li>
-              <li>- Toilet umum</li>
-               <li>- Area Camping</li>
-               <li>- Warung makan atau kantin</li>
+            <ul className={styles.list}>
+              <li>🅿️ Area Parkir</li>
+              <li>🪑 Tempat Istirahat</li>
+              <li>📸 Spot Foto</li>
+              <li>🚻 Toilet Umum</li>
+              <li>🏕️ Area Camping</li>
+              <li>🍽️ Warung Makan atau Kantin</li>
             </ul>
 
             <p>Rekomendasi: Pagi atau sore hari</p>
