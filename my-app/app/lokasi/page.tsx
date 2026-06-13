@@ -38,7 +38,7 @@ export default function Lokasi() {
               dari hiruk pikuk perkotaan.
             </p>
 
-            <p>Fasilitas:</p>
+            <h2 className={styles["subtitle"]}>Fasilitas</h2>
 
             <ul className={styles.list}>
               <li>🅿️ Area Parkir</li>
@@ -50,7 +50,7 @@ export default function Lokasi() {
             </ul>
 
             <section className={styles.recommendation}>
-              <h2>Rekomendasi Aktivitas</h2>
+              <h2 className={styles["subtitle"]}>Rekomendasi Aktivitas</h2>
 
               <ul className={styles.recommendationList}>
                 <li>📸 Berfoto di spot alam yang instagramable</li>
