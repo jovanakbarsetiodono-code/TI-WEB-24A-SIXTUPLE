@@ -49,7 +49,17 @@ export default function Lokasi() {
               <li>🍽️ Warung Makan atau Kantin</li>
             </ul>
 
-            <p>Rekomendasi: Pagi atau sore hari</p>
+            <section className={styles.recommendation}>
+              <h2>Rekomendasi Aktivitas</h2>
+
+              <ul className={styles.recommendationList}>
+                <li>Berfoto di spot alam yang instagramable</li>
+                <li>Camping bersama keluarga atau teman</li>
+                <li>Piknik di area terbuka</li>
+                <li>Menikmati suasana alam yang sejuk</li>
+                <li>Berjalan santai mengelilingi area wisata</li>
+              </ul>
+            </section>
           </div>
         </div>
       </div>
