@@ -25,7 +25,7 @@ export default function GalleryPage() {
             berbagai spot menarik untuk mengabadikan momen bersama keluarga dan
             teman.
           </p>
-          </section>
+        </section>
 
         <section className={styles.gallery}>
           {images.map((img, index) => (
@@ -39,6 +39,7 @@ export default function GalleryPage() {
             </div>
           ))}
         </section>
+
       </div>
     </div>
   );
