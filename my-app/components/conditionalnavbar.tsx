@@ -8,7 +8,8 @@ export default function ConditionalNavbar() {
 
   if (
     pathname.startsWith("/admin") ||
-    pathname.startsWith("/laporan")
+    pathname.startsWith("/laporan") ||
+    pathname.startsWith("/login-admin")
   ) {
     return null;
   }
