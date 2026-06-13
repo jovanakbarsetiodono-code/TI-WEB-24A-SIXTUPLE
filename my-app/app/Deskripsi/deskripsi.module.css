@@ -61,8 +61,20 @@
 }
 
 .deskripsi-list {
-  padding-left: 15px;
-  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 20px;
+}
+
+.deskripsi-list li {
+  background: #f8f8f8;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .deskripsi-text,
