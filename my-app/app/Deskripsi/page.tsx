@@ -7,6 +7,8 @@ export default function Page() {
       <main className={styles["deskripsi-main"]}>
         <h1 className={styles["deskripsi-title"]}>Deskripsi Wira Garden</h1>
 
+        <div className={styles.line}></div>
+
         <p className={styles["deskripsi-text"]}>
           Wira Garden merupakan tempat wisata alam di Bandar Lampung yang
           menawarkan suasana sejuk, pemandangan sungai, serta area bersantai
@@ -46,7 +48,7 @@ export default function Page() {
           <li>Menyediakan banyak spot foto yang menarik.</li>
           <li>Menyediakan fasilitas yang memadai untuk pengunjung.</li>
           <li>Memiliki harga yang terjangkau.</li>
-          <li>Tempat yang aman untuk anak-anak bermain di area tertentu.</li> 
+          <li>Tempat yang aman untuk anak-anak bermain di area tertentu.</li>
         </ul>
       </main>
     </div>
