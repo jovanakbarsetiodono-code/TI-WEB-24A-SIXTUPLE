@@ -21,7 +21,7 @@
   width: 120px;
   height: 5px;
   background-color: #14532d;
-  margin: 25px;
+  margin: 8px auto 25px;
   border-radius: 10px;
 }
 
@@ -111,5 +111,5 @@
     font-size: 14px;
     line-height: 1.6;
   }
-
+  
 }
